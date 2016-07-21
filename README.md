@@ -14,7 +14,7 @@ Feel free to access [my Portfolio](https://github.com/IbrahimSassi).
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum accumsan tellus lorem, ut tristique orci ultricies quis. Vivamus volutpat leo et semper pharetra. Quisque hendrerit ullamcorper tellus vitae suscipit
 >
 > Vestibulum eu euismod *ligula* .
-> Vestibulum eu euismod **ligula** .
+Vestibulum eu euismod **ligula** .
 
 ### Crazy good software
 * Rapid development
