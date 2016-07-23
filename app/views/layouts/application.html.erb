@@ -32,8 +32,23 @@
     </ul>
 
 
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
+<% if flash[:notice] %>
+    <div class="alert alert-success">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+      <%= flash[:notice] %>
+     </div>
+    <% elsif flash[:error] %>
+     <div class="alert alert-error">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+      <%= flash[:error] %>
+     </div>
+    <% elsif flash[:alert] %>
+      <div class="alert alert-warning">
+      <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+      <%= flash[:alert] %>
+     </div>
+    <% end %>
+
 
 
 
